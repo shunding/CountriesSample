@@ -1,19 +1,31 @@
 PODS:
-  - PKHUD (4.2.3)
-  - RxCocoa (3.6.1):
-    - RxSwift (~> 3.6)
-  - RxSwift (3.6.1)
+  - Alamofire (4.7.0)
+  - Moya/Core (11.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 3.0)
+  - Moya/RxSwift (11.0.1):
+    - Moya/Core
+    - RxSwift (~> 4.0)
+  - PKHUD (5.0.0)
+  - Result (3.2.4)
+  - RxCocoa (4.1.2):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.1.2)
 
 DEPENDENCIES:
-  - PKHUD (~> 4.0)
-  - RxCocoa (~> 3.0)
-  - RxSwift (~> 3.0)
+  - Moya/RxSwift (~> 11.0)
+  - PKHUD (~> 5.0)
+  - RxCocoa (~> 4.0)
+  - RxSwift (~> 4.0)
 
 SPEC CHECKSUMS:
-  PKHUD: c7692163a09875cbf15827dc581df3c5cf7f1015
-  RxCocoa: 84a08739ab186248c7f31ce4ee92d6f8a947d690
-  RxSwift: f9de85ea20cd2f7716ee5409fc13523dc638e4e4
+  Alamofire: 907e0a98eb68cdb7f9d1f541a563d6ac5dc77b25
+  Moya: 3d594ada51a21cc02b18739ab578a1984f900c8a
+  PKHUD: 3c001512c6e002091184197a8de7a20420786e3b
+  Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
+  RxCocoa: d88ba0f1f6abf040011a9eb4b539324fc426843a
+  RxSwift: e49536837d9901277638493ea537394d4b55f570
 
-PODFILE CHECKSUM: ae3478891ca47a524d757b06cb65f920a3f809ee
+PODFILE CHECKSUM: 63782564aec1fea2c66f2e8dfe2b2e252c9cf449
 
-COCOAPODS: 1.2.1
+COCOAPODS: 1.4.0
